@@ -39,7 +39,7 @@ Each glyph record contains:
 
 #### Examples
 
-Given a LRF1 file with a 7x8 font where each character code is one byte, each glyph record has 8 bytes: 1 byte for the character code and 7 bytes for the 7 pixel columns that make up the glyph. In such a file:
+Given a LRF v1 file with a 7x8 font where each character code is one byte, each glyph record has 8 bytes: 1 byte for the character code and 7 bytes for the 7 pixel columns that make up the glyph. In such a file:
 
 - The glyph record for the "|" (pipe or vertical bar) character is `7C 00 00 00 FF 00 00 00`, where 0x7f represents the Unicode character code for _VERTICAL LINE_ (U+007F), 0x00 are blank columns and 0xFF are the 8 pixels of a full-height vertical line (11111111).
 

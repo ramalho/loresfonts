@@ -21,7 +21,7 @@ LRF is a binary format. An LRF version 1 file has a header, followed by glyph re
 
 The header contains:
 
-- MAGIC: the ASCII letters "LRF1" (four bytes);
+- MAGIC: the ASCII characters "LRF1" (four bytes);
 - CW: One unsigned byte with the character code width, ex. 2 if the character code in each glyph record is a 2-byte unsigned integer;
 - GW: One unsigned byte with the glyph width, ex. 7 for a 7x8 font;
 - GH: One unsigned byte with the glyph height, ex. 8 for a 7x8 font (see note below);

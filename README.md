@@ -3,7 +3,7 @@ Low resolution bitmapped fonts in LRF format
 
 ## About LRF
 
-LRF (Low-Rest Font) is a simple bitmapped font format designed to make it easy to display on scrolling LED-matrix displays, because the pixels for each glyph are organized by column. For example, in a 7x8 font like that of the Apple ][, the glyph for the capital F is stored like this:
+LRF (Low Resolution Font) is a simple bitmapped font format designed to make it easy to display on scrolling LED-matrix displays, because the pixels for each glyph are organized by column. For example, in a 7x8 font like that of the Apple ][, the glyph for the capital F is stored like this:
 
 ```
 00000000
